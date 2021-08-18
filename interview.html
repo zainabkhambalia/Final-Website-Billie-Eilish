@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+	<style>
+	
+
+		
+		.interview {
+			width: 400px;
+			position: absolute;
+			left: 390px;
+			top: 1350px;
+		}
+		
+		.zendtom {
+			width: 380px;
+			position: absolute;
+			left: 380px;
+			top: 1420px;		
+		}
+		
+		body {
+			font-family:'Archivo', sans-serif;
+		}
+		
+		.topnav {
+			overflow:hidden;
+			background-color:black;
+		}
+		
+		.topnav a {
+			color:antiquewhite;
+			padding: 10px 20px 30px 40px 
+			text-decoration: none;
+			font-size: 27px;
+		}
+		.topnav a:hover {
+			background-color:limegreen;
+			color:antiquewhite;
+		}
+		.topnav a.active {
+			background-color:black;
+			color: white;
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0px;
+			padding: 70px 0px 0px 80px;
+			overflow: hidden;
+			background-color:black;
+		}
+		
+		li {
+			float: left;
+		}
+		
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		li a:hover:not(.active) {
+			background-color: limegreen;
+		}
+		
+		.active {
+			background-color:black;
+		}
+		
+		body {
+			font-family:Savate;
+			font-size: 14px;
+		}
+		#myBtn {
+			display: none;
+			position: fixed;
+			bottom: 20px;
+			right: 30px;
+			z-index: 99;
+			font-size: 18px;
+			border: none;
+			outline: none;
+			background-color:limegreen;
+			color:white;
+			cursor: pointer;
+			padding: 15px;
+			border-radius: 4px;
+		}
+		
+		#myBtn:hover {
+			background-color:black;
+			color:limegreen
+		}
+	</style>
+	
+	
+</head>
+
+<body background="../WhatsApp Image 2021-08-14 at 11.10.08 PM.jpeg" style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+	
+	<ul>
+  <li><a class="active" href="Billie Homepage.html"><img src="../home.png" alt="icon" style="height: 70px; transform: translateY(-30px)"> </a></li>
+  <li style="padding-left: 30px"><a href="interview.html" style="font-size: 24px; font-family:Savate">Interview</a></li>
+  <li style="padding-left: 900px"><a href="https://www.facebook.com/billieeilish"><img src="../white FB icon.png" alt="fb"  style="height: 35px;"></a></li>
+  <li><a href="https://instagram.com/billieeilish?utm_medium=copy_link"><img src="../white insta icon.png" alt="insta" style="height: 35px;"></a></li>
+  <li style="transform: translateX(-200px)"><a href="https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH?si=79ceAkeISuiidDRcZu6bsw&dl_branch=1"><img src="../spotify icon.png" alt="spotify" style="height: 35px;"></a></li>
+</ul>
+	
+	<div>
+		<center>
+		<iframe width="660" height="415" src="../interview.mp4" frameborder="0" allowfullscreen style="padding-top: 60px"></iframe>
+	</center>
+	</div>
+	
+	<center>
+	<img src="../new interview para.png" alt="interview" style="height: 3200px; padding-left: 300px; padding-top: 60px">
+	</center>
+	
+	
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+
+<script>
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+	<footer style="background:#000000;">
+		<center>
+		<p style="padding: 40px; color: white">©2021 Billie Eillish. All rights reserved.</p>
+		</center>
+	</footer>
+	
+</body>
+</html>
